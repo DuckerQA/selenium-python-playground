@@ -11,6 +11,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.saucedemo.com/")
 driver.maximize_window()
 print(driver.title)
+print(driver.current_url)
 
 
 

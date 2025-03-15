@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables & logs
+.env
+*.log
+
+# Selenium WebDriver binaries
+chromedriver*
+geckodriver*
+msedgedriver*
+
+# IDE & OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
