@@ -19,6 +19,8 @@ for country in countries:
         country.click()
         break
 
+assert driver.find_element(By.ID, "autosuggest").get_attribute("value") == "India"
+
 time.sleep(3)
 
 
