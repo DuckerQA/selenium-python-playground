@@ -15,7 +15,8 @@ driver.find_element(By.ID, "exampleInputPassword1").send_keys("Admin1")
 driver.find_element(By.ID, "exampleCheck1").click()
 
 #Static Dropdown
-Select(driver.find_element(By.ID, "exampleFormControlSelect1")).select_by_visible_text("Female")
+dropdown = Select(driver.find_element(By.ID, "exampleFormControlSelect1"))
+dropdown.select_by_visible_text("Female")
 
 driver.find_element(By.XPATH, "//input[@type='radio' and @value='option2']").click()
 driver.find_element(By.XPATH, '(//input[@type="text"])[3]').send_keys("Hello Again")
